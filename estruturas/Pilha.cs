@@ -7,7 +7,7 @@ namespace estruturasDeDados.estruturas
         Posicao topo;
 
         // Lanca uma exceção caso a pilha esteja vazia
-        void checaPilha()
+        private void checaPilha()
         {
             if (topo == null)
             {
