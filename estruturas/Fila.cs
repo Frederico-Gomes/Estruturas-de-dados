@@ -8,7 +8,7 @@ namespace estruturasDeDados.estruturas
         Posicao ultimo;
 
         // Lanca uma exceção caso a fila esteja vazia
-        void checaFila()
+        private void checaFila()
         {
             if (primeiro == null)
             {
