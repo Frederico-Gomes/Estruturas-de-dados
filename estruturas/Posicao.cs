@@ -6,10 +6,11 @@ namespace estruturasDeDados.estruturas
         public Posicao anterior;
         public int valor;
 
-        public Posicao(int valor, Posicao proximo)
+        public Posicao(int valor, Posicao proximo, Posicao anterior)
         {
             this.valor = valor;
             this.proximo = proximo;
+            this.anterior = anterior;
         }
 
 
